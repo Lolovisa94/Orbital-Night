@@ -24,3 +24,21 @@ code {
   bottom: 0;
   width: 50%;
 }
+
+.home-button {
+  border: none;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  font-size: 32px;
+  text-transform: none;
+  background-color: var(--mulberry);
+  overflow: hidden;
+  position: relative;
+}
+
+.home-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Layout from './components/layout';
 import { ThemeProvider } from '@mui/material';
-import theme from './theme';
+import Theme from './theme';
 import Home from './components/home';
 
 
@@ -18,7 +18,7 @@ function App() {
     }, []);
 
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={Theme}>
             <Router>
                 <Layout>
                     <Routes>
